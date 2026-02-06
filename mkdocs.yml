@@ -1,0 +1,10 @@
+site_name: Functional Safety Portfolio
+site_url: https://haoj-de.github.io/fs-portfolio-site/
+theme:
+  name: material
+nav:
+  - Home: index.md
+  - Case Study 1: case-study-1.md
+  - Case Study 2: case-study-2.md
+  - Templates: templates.md
+  - Contact: contact.md
