@@ -8,3 +8,6 @@ nav:
   - Case Study 2: case-study-2.md
   - Templates: templates.md
   - Contact: contact.md
+markdown_extensions:
+  - attr_list
+  - md_in_html
