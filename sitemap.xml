@@ -2,26 +2,74 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
          <loc>https://haoj-de.github.io/fs-portfolio-site/</loc>
-         <lastmod>2026-02-07</lastmod>
+         <lastmod>2026-02-08</lastmod>
     </url>
     <url>
          <loc>https://haoj-de.github.io/fs-portfolio-site/_Index_of_docs/</loc>
-         <lastmod>2026-02-07</lastmod>
+         <lastmod>2026-02-08</lastmod>
     </url>
     <url>
          <loc>https://haoj-de.github.io/fs-portfolio-site/case-study-1/</loc>
-         <lastmod>2026-02-07</lastmod>
+         <lastmod>2026-02-08</lastmod>
     </url>
     <url>
          <loc>https://haoj-de.github.io/fs-portfolio-site/case-study-2/</loc>
-         <lastmod>2026-02-07</lastmod>
+         <lastmod>2026-02-08</lastmod>
     </url>
     <url>
          <loc>https://haoj-de.github.io/fs-portfolio-site/contact/</loc>
-         <lastmod>2026-02-07</lastmod>
+         <lastmod>2026-02-08</lastmod>
     </url>
     <url>
          <loc>https://haoj-de.github.io/fs-portfolio-site/templates/</loc>
-         <lastmod>2026-02-07</lastmod>
+         <lastmod>2026-02-08</lastmod>
+    </url>
+    <url>
+         <loc>https://haoj-de.github.io/fs-portfolio-site/track-a/</loc>
+         <lastmod>2026-02-08</lastmod>
+    </url>
+    <url>
+         <loc>https://haoj-de.github.io/fs-portfolio-site/track-a/_Index_of_track-a/</loc>
+         <lastmod>2026-02-08</lastmod>
+    </url>
+    <url>
+         <loc>https://haoj-de.github.io/fs-portfolio-site/track-a/audit-compliance/</loc>
+         <lastmod>2026-02-08</lastmod>
+    </url>
+    <url>
+         <loc>https://haoj-de.github.io/fs-portfolio-site/track-a/reusable-assets/</loc>
+         <lastmod>2026-02-08</lastmod>
+    </url>
+    <url>
+         <loc>https://haoj-de.github.io/fs-portfolio-site/track-a/safety-lifecycle/</loc>
+         <lastmod>2026-02-08</lastmod>
+    </url>
+    <url>
+         <loc>https://haoj-de.github.io/fs-portfolio-site/track-a/traceability-metrics/</loc>
+         <lastmod>2026-02-08</lastmod>
+    </url>
+    <url>
+         <loc>https://haoj-de.github.io/fs-portfolio-site/track-b/</loc>
+         <lastmod>2026-02-08</lastmod>
+    </url>
+    <url>
+         <loc>https://haoj-de.github.io/fs-portfolio-site/track-b/_Index_of_track-b/</loc>
+         <lastmod>2026-02-08</lastmod>
+    </url>
+    <url>
+         <loc>https://haoj-de.github.io/fs-portfolio-site/track-b/analytics-execution/</loc>
+         <lastmod>2026-02-08</lastmod>
+    </url>
+    <url>
+         <loc>https://haoj-de.github.io/fs-portfolio-site/track-b/data-governance/</loc>
+         <lastmod>2026-02-08</lastmod>
+    </url>
+    <url>
+         <loc>https://haoj-de.github.io/fs-portfolio-site/track-b/data-quality-controls/</loc>
+         <lastmod>2026-02-08</lastmod>
+    </url>
+    <url>
+         <loc>https://haoj-de.github.io/fs-portfolio-site/track-b/roadmap/</loc>
+         <lastmod>2026-02-08</lastmod>
     </url>
 </urlset>

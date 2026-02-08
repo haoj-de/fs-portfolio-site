@@ -6,30 +6,32 @@
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width,initial-scale=1">
       
-        <meta name="description" content="Functional Safety, Data Governance, Traceability, and ISO 26262 portfolio.">
+        <meta name="description" content="Functional Safety traceability framework with requirement-test-defect coverage metrics, defect closure controls, and release-gate readiness aligned with ISO 26262.">
       
       
       
-        <link rel="canonical" href="https://haoj-de.github.io/fs-portfolio-site/">
+        <link rel="canonical" href="https://haoj-de.github.io/fs-portfolio-site/track-a/traceability-metrics/">
       
       
+        <link rel="prev" href="../audit-compliance/">
       
-        <link rel="next" href="track-a/">
+      
+        <link rel="next" href="../reusable-assets/">
       
       
         
       
       
-      <link rel="icon" href="assets/images/favicon.png">
+      <link rel="icon" href="../../assets/images/favicon.png">
       <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.1">
     
     
       
-        <title>Functional Safety Portfolio</title>
+        <title>Traceability & Metrics | Functional Safety, Data Governance, ISO 26262 - Functional Safety Portfolio</title>
       
     
     
-      <link rel="stylesheet" href="assets/stylesheets/main.484c7ddc.min.css">
+      <link rel="stylesheet" href="../../assets/stylesheets/main.484c7ddc.min.css">
       
       
 
@@ -48,7 +50,7 @@
       
     
     
-    <script>__md_scope=new URL(".",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
       
 
@@ -66,7 +68,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#explore-my-work" class="md-skip">
+        <a href="#traceability-metrics" class="md-skip">
           Skip to content
         </a>
       
@@ -82,7 +84,7 @@
 
 <header class="md-header md-header--shadow" data-md-component="header">
   <nav class="md-header__inner md-grid" aria-label="Header">
-    <a href="." title="Functional Safety Portfolio" class="md-header__button md-logo" aria-label="Functional Safety Portfolio" data-md-component="logo">
+    <a href="../.." title="Functional Safety Portfolio" class="md-header__button md-logo" aria-label="Functional Safety Portfolio" data-md-component="logo">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
@@ -102,7 +104,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Home
+              Traceability & Metrics | Functional Safety, Data Governance, ISO 26262
             
           </span>
         </div>
@@ -192,7 +194,7 @@
 
 <nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
   <label class="md-nav__title" for="__drawer">
-    <a href="." title="Functional Safety Portfolio" class="md-nav__button md-logo" aria-label="Functional Safety Portfolio" data-md-component="logo">
+    <a href="../.." title="Functional Safety Portfolio" class="md-nav__button md-logo" aria-label="Functional Safety Portfolio" data-md-component="logo">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
@@ -219,35 +221,10 @@
       
   
   
-    
   
   
-  
-    <li class="md-nav__item md-nav__item--active">
-      
-      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
-      
-      
-      
-        <label class="md-nav__link md-nav__link--active" for="__toc">
-          
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Home
-  
-
-    
-  </span>
-  
-  
-
-          <span class="md-nav__icon md-icon"></span>
-        </label>
-      
-      <a href="." class="md-nav__link md-nav__link--active">
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
         
   
   
@@ -263,146 +240,6 @@
   
 
       </a>
-      
-        
-
-<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
-  
-  
-  
-  
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      Table of contents
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#explore-my-work" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Explore My Work
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#functional-safety-data-governance-portfolio" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Functional Safety × Data Governance Portfolio
-      
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="Functional Safety × Data Governance Portfolio">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#what-i-solve" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        What I Solve
-      
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#core-value-i-deliver" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Core Value I Deliver
-      
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#featured-case-studies" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Featured Case Studies
-      
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="Featured Case Studies">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#case-study-1-safety-traceability-release-gate-governance" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Case Study 1 — Safety Traceability &amp; Release Gate Governance
-      
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#case-study-2-audit-readiness-through-data-controls" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Case Study 2 — Audit Readiness Through Data Controls
-      
-    </span>
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#toolkit" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Toolkit
-      
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#one-page-summary" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        One-Page Summary
-      
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#contact" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Contact
-      
-    </span>
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-    </ul>
-  
-</nav>
-      
     </li>
   
 
@@ -411,8 +248,10 @@
       
   
   
+    
   
   
+  
     
     
     
@@ -423,13 +262,11 @@
       
     
     
-    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
       
         
         
-          
-        
-        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_2" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" checked>
         
           
           <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="">
@@ -450,7 +287,7 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="true">
           <label class="md-nav__title" for="__nav_2">
             <span class="md-nav__icon md-icon"></span>
             
@@ -468,7 +305,7 @@
   
   
     <li class="md-nav__item">
-      <a href="track-a/" class="md-nav__link">
+      <a href="../" class="md-nav__link">
         
   
   
@@ -496,7 +333,7 @@
   
   
     <li class="md-nav__item">
-      <a href="track-a/safety-lifecycle/" class="md-nav__link">
+      <a href="../safety-lifecycle/" class="md-nav__link">
         
   
   
@@ -524,7 +361,7 @@
   
   
     <li class="md-nav__item">
-      <a href="track-a/audit-compliance/" class="md-nav__link">
+      <a href="../audit-compliance/" class="md-nav__link">
         
   
   
@@ -549,10 +386,37 @@
                 
   
   
+    
   
   
-    <li class="md-nav__item">
-      <a href="track-a/traceability-metrics/" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Traceability & Metrics
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
         
   
   
@@ -568,6 +432,192 @@
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#context" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Context
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#problem" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Problem
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Problem">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#baseline-before-intervention" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Baseline (before intervention)
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#objective" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Objective
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#actions" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Actions
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Actions">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#1-defined-traceability-model-and-metric-dictionary" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1) Defined traceability model and metric dictionary
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2-implemented-metric-layers-for-repeatability" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2) Implemented metric layers for repeatability
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#3-created-gap-oriented-outputs" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3) Created gap-oriented outputs
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#4-established-governance-around-metric-use" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4) Established governance around metric use
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#controls-method" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Controls / Method
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#results" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Results
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#deliverables" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Deliverables
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#why-this-matters" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Why this matters
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#scale-this-with-data" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Scale this with data
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
     </li>
   
 
@@ -580,7 +630,7 @@
   
   
     <li class="md-nav__item">
-      <a href="track-a/reusable-assets/" class="md-nav__link">
+      <a href="../reusable-assets/" class="md-nav__link">
         
   
   
@@ -669,7 +719,7 @@
   
   
     <li class="md-nav__item">
-      <a href="track-b/" class="md-nav__link">
+      <a href="../../track-b/" class="md-nav__link">
         
   
   
@@ -697,7 +747,7 @@
   
   
     <li class="md-nav__item">
-      <a href="track-b/data-governance/" class="md-nav__link">
+      <a href="../../track-b/data-governance/" class="md-nav__link">
         
   
   
@@ -725,7 +775,7 @@
   
   
     <li class="md-nav__item">
-      <a href="track-b/analytics-execution/" class="md-nav__link">
+      <a href="../../track-b/analytics-execution/" class="md-nav__link">
         
   
   
@@ -753,7 +803,7 @@
   
   
     <li class="md-nav__item">
-      <a href="track-b/data-quality-controls/" class="md-nav__link">
+      <a href="../../track-b/data-quality-controls/" class="md-nav__link">
         
   
   
@@ -781,7 +831,7 @@
   
   
     <li class="md-nav__item">
-      <a href="track-b/roadmap/" class="md-nav__link">
+      <a href="../../track-b/roadmap/" class="md-nav__link">
         
   
   
@@ -816,7 +866,7 @@
   
   
     <li class="md-nav__item">
-      <a href="one-pager.md" class="md-nav__link">
+      <a href="../../one-pager.md" class="md-nav__link">
         
   
   
@@ -843,7 +893,7 @@
   
   
     <li class="md-nav__item">
-      <a href="contact/" class="md-nav__link">
+      <a href="../../contact/" class="md-nav__link">
         
   
   
@@ -880,6 +930,8 @@
   
   
   
+    
+  
   
     <label class="md-nav__title" for="__toc">
       <span class="md-nav__icon md-icon"></span>
@@ -888,10 +940,10 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#explore-my-work" class="md-nav__link">
+  <a href="#context" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Explore My Work
+        Context
       
     </span>
   </a>
@@ -899,67 +951,22 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#functional-safety-data-governance-portfolio" class="md-nav__link">
+  <a href="#problem" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Functional Safety × Data Governance Portfolio
+        Problem
       
     </span>
   </a>
   
-    <nav class="md-nav" aria-label="Functional Safety × Data Governance Portfolio">
+    <nav class="md-nav" aria-label="Problem">
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#what-i-solve" class="md-nav__link">
+  <a href="#baseline-before-intervention" class="md-nav__link">
     <span class="md-ellipsis">
       
-        What I Solve
-      
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#core-value-i-deliver" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Core Value I Deliver
-      
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#featured-case-studies" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Featured Case Studies
-      
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="Featured Case Studies">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#case-study-1-safety-traceability-release-gate-governance" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Case Study 1 — Safety Traceability &amp; Release Gate Governance
-      
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#case-study-2-audit-readiness-through-data-controls" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Case Study 2 — Audit Readiness Through Data Controls
+        Baseline (before intervention)
       
     </span>
   </a>
@@ -970,12 +977,35 @@
     </nav>
   
 </li>
-        
-          <li class="md-nav__item">
-  <a href="#toolkit" class="md-nav__link">
+      
+        <li class="md-nav__item">
+  <a href="#objective" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Toolkit
+        Objective
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#actions" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Actions
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Actions">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#1-defined-traceability-model-and-metric-dictionary" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1) Defined traceability model and metric dictionary
       
     </span>
   </a>
@@ -983,10 +1013,10 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#one-page-summary" class="md-nav__link">
+  <a href="#2-implemented-metric-layers-for-repeatability" class="md-nav__link">
     <span class="md-ellipsis">
       
-        One-Page Summary
+        2) Implemented metric layers for repeatability
       
     </span>
   </a>
@@ -994,10 +1024,21 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#contact" class="md-nav__link">
+  <a href="#3-created-gap-oriented-outputs" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Contact
+        3) Created gap-oriented outputs
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#4-established-governance-around-metric-use" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4) Established governance around metric use
       
     </span>
   </a>
@@ -1006,6 +1047,61 @@
         
       </ul>
     </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#controls-method" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Controls / Method
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#results" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Results
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#deliverables" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Deliverables
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#why-this-matters" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Why this matters
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#scale-this-with-data" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Scale this with data
+      
+    </span>
+  </a>
   
 </li>
       
@@ -1029,80 +1125,121 @@
   
 
 
-<div class="grid cards">
+<h1 id="traceability-metrics">Traceability &amp; Metrics<a class="headerlink" href="#traceability-metrics" title="Permanent link">&para;</a></h1>
+<h2 id="context">Context<a class="headerlink" href="#context" title="Permanent link">&para;</a></h2>
+<p>In safety-relevant development, traceability is not only a documentation need — it is a risk-control mechanism.<br />
+I implemented traceability and metric controls across requirements, tests, and defects to support release decisions and compliance readiness.</p>
 <ul>
-<li>
-<h2 id="explore-my-work">Explore My Work<a class="headerlink" href="#explore-my-work" title="Permanent link">&para;</a></h2>
-<p>I build audit-ready safety and quality data systems.</p>
-<p><a class="md-button md-button--primary" href="case-study-1/">View Case Study 1</a>
-<a class="md-button" href="case-study-2/">View Case Study 2</a>
-<a class="md-button" href="assets/Functional_Safety_Data_Governance_OnePager.pdf">Download One-Pager</a></p>
-</li>
-</ul>
-</div>
-<h1 id="functional-safety-data-governance-portfolio">Functional Safety × Data Governance Portfolio<a class="headerlink" href="#functional-safety-data-governance-portfolio" title="Permanent link">&para;</a></h1>
-<p>I help engineering organizations turn safety and quality evidence into <strong>audit-ready, decision-ready data systems</strong>.</p>
-<p>My focus is at the intersection of:</p>
-<ul>
-<li><strong>Functional Safety</strong> (ISO 26262 mindset, traceability, risk control)</li>
-<li><strong>Data Governance</strong> (definitions, ownership, controls, quality rules)</li>
-<li><strong>Analytics Execution</strong> (SQL-driven metrics, release gates, actionable dashboards)</li>
+<li><strong>Domain:</strong> [Automotive / Rail / Industrial]</li>
+<li><strong>Scope:</strong> [Program / ECU / Product Line]</li>
+<li><strong>Standards mindset:</strong> ISO 26262 evidence and consistency expectations</li>
 </ul>
 <hr />
-<h2 id="what-i-solve">What I Solve<a class="headerlink" href="#what-i-solve" title="Permanent link">&para;</a></h2>
-<p>Many teams already have tools (ALM, test management, defect tracking), but still struggle with:</p>
+<h2 id="problem">Problem<a class="headerlink" href="#problem" title="Permanent link">&para;</a></h2>
+<p>Before standardization, teams faced recurring issues:</p>
 <ul>
-<li>Inconsistent KPI definitions across teams</li>
-<li>Broken links between requirements, tests, and defects</li>
-<li>Manual, error-prone release reporting</li>
-<li>High audit preparation effort</li>
+<li>Requirement-to-test traceability was incomplete or inconsistent.</li>
+<li>Defects were not always linked to requirement or test context.</li>
+<li>KPI definitions differed between teams and reports.</li>
+<li>Release meetings spent too much time debating data, not decisions.</li>
 </ul>
-<p>I design and implement governance-driven analytics that make these processes reproducible and trustworthy.</p>
-<hr />
-<h2 id="core-value-i-deliver">Core Value I Deliver<a class="headerlink" href="#core-value-i-deliver" title="Permanent link">&para;</a></h2>
+<h3 id="baseline-before-intervention">Baseline (before intervention)<a class="headerlink" href="#baseline-before-intervention" title="Permanent link">&para;</a></h3>
 <ul>
-<li>Unified metric definitions for safety/quality KPIs  </li>
-<li>Data quality controls (completeness, consistency, referential integrity)  </li>
-<li>Traceability coverage and gap detection  </li>
-<li>Automated release-gate logic with clear pass/fail reasons  </li>
-<li>Audit-ready lineage, documentation, and change traceability  </li>
+<li>Requirement→Test coverage: <strong>[X%]</strong></li>
+<li>Unlinked defects: <strong>[X]</strong></li>
+<li>Open Sev1/Sev2 at release review: <strong>[X] / [Y]</strong></li>
+<li>Manual report preparation time: <strong>[X hours]</strong></li>
 </ul>
 <hr />
-<h2 id="featured-case-studies">Featured Case Studies<a class="headerlink" href="#featured-case-studies" title="Permanent link">&para;</a></h2>
-<h3 id="case-study-1-safety-traceability-release-gate-governance">Case Study 1 — Safety Traceability &amp; Release Gate Governance<a class="headerlink" href="#case-study-1-safety-traceability-release-gate-governance" title="Permanent link">&para;</a></h3>
-<p>Built a governance-based data model linking requirements, tests, and defects, with automated quality checks and release gate evaluation.</p>
-<p><a href="case-study-1/">Read Case Study 1</a></p>
-<h3 id="case-study-2-audit-readiness-through-data-controls">Case Study 2 — Audit Readiness Through Data Controls<a class="headerlink" href="#case-study-2-audit-readiness-through-data-controls" title="Permanent link">&para;</a></h3>
-<p>Designed standardized definitions and ownership workflows to reduce audit friction and reporting inconsistency.</p>
-<p><a href="case-study-2/">Read Case Study 2</a></p>
+<h2 id="objective">Objective<a class="headerlink" href="#objective" title="Permanent link">&para;</a></h2>
+<p>Build a traceability and metrics layer that is:</p>
+<ol>
+<li><strong>Consistent</strong> (single KPI definition source)</li>
+<li><strong>Actionable</strong> (gap lists and risk hotspots)</li>
+<li><strong>Auditable</strong> (clear logic and evidence linkage)</li>
+<li><strong>Operational</strong> (usable in release-gate decisions)</li>
+</ol>
 <hr />
-<h2 id="toolkit">Toolkit<a class="headerlink" href="#toolkit" title="Permanent link">&para;</a></h2>
-<p>Reusable assets I apply in projects:</p>
+<h2 id="actions">Actions<a class="headerlink" href="#actions" title="Permanent link">&para;</a></h2>
+<h3 id="1-defined-traceability-model-and-metric-dictionary">1) Defined traceability model and metric dictionary<a class="headerlink" href="#1-defined-traceability-model-and-metric-dictionary" title="Permanent link">&para;</a></h3>
+<p>I standardized entity relationships and metric semantics:</p>
 <ul>
-<li>KPI definition templates</li>
-<li>Data quality rule catalog</li>
-<li>Traceability gap checklist</li>
-<li>Governance operating model (Owner / Steward / Custodian)</li>
+<li>Requirement ↔ Test Case</li>
+<li>Requirement/Test ↔ Defect</li>
+<li>Build/Version ↔ Test Results/Defect Status</li>
 </ul>
-<p><a href="toolkit.md">View Toolkit</a></p>
-<hr />
-<h2 id="one-page-summary">One-Page Summary<a class="headerlink" href="#one-page-summary" title="Permanent link">&para;</a></h2>
-<p>Need a quick overview?</p>
-<p><a href="assets/Functional_Safety_Data_Governance_OnePager.pdf">Download One-Pager (PDF)</a></p>
-<hr />
-<h2 id="contact">Contact<a class="headerlink" href="#contact" title="Permanent link">&para;</a></h2>
+<p>Core KPI definitions included:</p>
 <ul>
-<li>LinkedIn: https://www.linkedin.com/in/hao-ji-career/</li>
-<li>Email: hao.ji.career@gmail.com</li>
-<li>Location: Germany / EU (Remote-friendly)</li>
+<li>Traceability coverage (% requirements with valid test linkage)</li>
+<li>Safety-relevant coverage (% safety requirements with valid verification)</li>
+<li>Defect linkage rate (% defects linked to requirement or test)</li>
+<li>MTTR (mean time to resolution)</li>
+<li>Reopen rate</li>
+<li>Open Sev1/Sev2 by build and component</li>
 </ul>
-<p>If you're hiring for roles in Functional Safety, Data Governance, Analytics Engineering, or Compliance Analytics, feel free to reach out.</p>
+<h3 id="2-implemented-metric-layers-for-repeatability">2) Implemented metric layers for repeatability<a class="headerlink" href="#2-implemented-metric-layers-for-repeatability" title="Permanent link">&para;</a></h3>
+<p>I organized metrics into reusable layers:</p>
+<ul>
+<li>Source harmonization</li>
+<li>Intermediate calculations</li>
+<li>Decision-ready KPI summaries</li>
+</ul>
+<h3 id="3-created-gap-oriented-outputs">3) Created gap-oriented outputs<a class="headerlink" href="#3-created-gap-oriented-outputs" title="Permanent link">&para;</a></h3>
+<p>I produced operational reports focused on action:</p>
+<ul>
+<li>Missing-link requirement list (by component / ASIL / priority)</li>
+<li>Unlinked defect list</li>
+<li>High-risk component ranking</li>
+<li>Release-gate readiness summary</li>
+</ul>
+<h3 id="4-established-governance-around-metric-use">4) Established governance around metric use<a class="headerlink" href="#4-established-governance-around-metric-use" title="Permanent link">&para;</a></h3>
+<ul>
+<li>Unified metric owner and review process</li>
+<li>Change log for KPI definition updates</li>
+<li>Review cadence before release decisions</li>
+</ul>
+<hr />
+<h2 id="controls-method">Controls / Method<a class="headerlink" href="#controls-method" title="Permanent link">&para;</a></h2>
+<ul>
+<li>Explicit KPI formula definitions</li>
+<li>Inclusion/exclusion criteria documented</li>
+<li>Ownership model for metric approval</li>
+<li>Structured review checklist for release-gate pack quality</li>
+</ul>
+<hr />
+<h2 id="results">Results<a class="headerlink" href="#results" title="Permanent link">&para;</a></h2>
+<ul>
+<li>Requirement→Test coverage improved from <strong>[X%] → [Y%]</strong></li>
+<li>Unlinked defects reduced from <strong>[X] → [Y]</strong></li>
+<li>Reporting preparation time reduced from <strong>[X hours] → [Y hours]</strong></li>
+<li>Data disputes in release meetings reduced by <strong>[X]%</strong></li>
+<li>Decision cycle in release review reduced by <strong>[X]%</strong></li>
+</ul>
+<hr />
+<h2 id="deliverables">Deliverables<a class="headerlink" href="#deliverables" title="Permanent link">&para;</a></h2>
+<ul>
+<li>Traceability KPI dictionary</li>
+<li>Coverage and gap reports</li>
+<li>Defect closure and risk trend metrics</li>
+<li>Release-gate metrics summary template</li>
+<li>Metric governance change log template</li>
+</ul>
+<hr />
+<h2 id="why-this-matters">Why this matters<a class="headerlink" href="#why-this-matters" title="Permanent link">&para;</a></h2>
+<p>This work shifted traceability from “static compliance evidence” to “active decision support,” enabling faster and more reliable release readiness assessment.</p>
+<hr />
+<h2 id="scale-this-with-data">Scale this with data<a class="headerlink" href="#scale-this-with-data" title="Permanent link">&para;</a></h2>
+<p>See how this traceability framework becomes automated, governed analytics with quality controls.</p>
+<p><a class="md-button md-button--primary" href="../../track-b/data-governance/">View related page in Track B</a></p>
 
 
 
 
 
 
+
+  
+  
 
 
 
@@ -1152,10 +1289,10 @@
     
       
       
-      <script id="__config" type="application/json">{"annotate": null, "base": ".", "features": ["navigation.top", "navigation.sections", "navigation.expand", "search.highlight", "content.code.copy"], "search": "assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+      <script id="__config" type="application/json">{"annotate": null, "base": "../..", "features": ["navigation.top", "navigation.sections", "navigation.expand", "search.highlight", "content.code.copy"], "search": "../../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
     
     
-      <script src="assets/javascripts/bundle.79ae519e.min.js"></script>
+      <script src="../../assets/javascripts/bundle.79ae519e.min.js"></script>
       
     
   </body>
