@@ -1,13 +1,46 @@
-site_name: Functional Safety Portfolio
-site_url: https://haoj-de.github.io/fs-portfolio-site/
+site_name: "Functional Safety Portfolio"
+site_description: "Functional Safety, Data Governance, Traceability, and ISO 26262 portfolio."
+site_url: "https://haoj-de.github.io/fs-portfolio-site/"
+repo_url: "https://github.com/haoj-de/fs-portfolio-site"
+repo_name: "haoj-de/fs-portfolio-site"
+
 theme:
   name: material
-nav:
-  - Home: index.md
-  - Case Study 1: case-study-1.md
-  - Case Study 2: case-study-2.md
-  - Templates: templates.md
-  - Contact: contact.md
+  language: en
+  features:
+    - navigation.top
+    - navigation.sections
+    - navigation.expand
+    - search.highlight
+    - content.code.copy
+
+plugins:
+  - search
+
 markdown_extensions:
+  - meta
   - attr_list
   - md_in_html
+  - admonition
+  - toc:
+      permalink: true
+
+nav:
+  - Home: index.md
+
+  - "Track A: Functional Safety":
+      - Overview: track-a/index.md
+      - "Safety Lifecycle (Concept to SOP)": track-a/safety-lifecycle.md
+      - "Audit & Compliance": track-a/audit-compliance.md
+      - "Traceability & Metrics": track-a/traceability-metrics.md
+      - "Reusable Assets": track-a/reusable-assets.md
+
+  - "Track B: Safety × Data":
+      - Overview: track-b/index.md
+      - "Data Governance for Safety/Quality": track-b/data-governance.md
+      - "Analytics Execution": track-b/analytics-execution.md
+      - "Data Quality Controls": track-b/data-quality-controls.md
+      - "Transformation Roadmap": track-b/roadmap.md
+
+  - "One-Pager": one-pager.md
+  - Contact: contact.md

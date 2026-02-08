@@ -5,8 +5,8 @@
 An engineering organization managed safety-relevant data across multiple systems (requirements, test management, and defect tracking).  
 Although tools were in place, cross-system consistency and traceability were weak.
 
-**Domain:** [Automotive / Rail / Industrial]  
-**Scope:** [Program / Product Line / ECU / Platform]  
+**Domain:** [Automotive / Rail / Industrial]
+**Scope:** [Program / Product Line / ECU / Platform]
 **Period:** [Month YYYY – Month YYYY]
 
 ---

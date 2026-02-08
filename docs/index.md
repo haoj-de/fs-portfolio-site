@@ -5,7 +5,8 @@
 
     I build audit-ready safety and quality data systems.
 
-    [View Case Study](case-study-1.md){ .md-button .md-button--primary }
+    [View Case Study 1](case-study-1.md){ .md-button .md-button--primary }
+    [View Case Study 2](case-study-2.md){ .md-button }
     [Download One-Pager](assets/Functional_Safety_Data_Governance_OnePager.pdf){ .md-button }
 
 </div>
